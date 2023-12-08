@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+/* .body-bg {
+    position: relative;
+} */
+
+.body-bg::before {
+    background-image: url('https://wallpapercave.com/wp/wp7881177.jpg');
+content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ 
+  opacity: 0.1; /* Adjust the opacity as needed (0.1 to 1) */
+  z-index: -1; 
+}
+
+.jinkies {
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
