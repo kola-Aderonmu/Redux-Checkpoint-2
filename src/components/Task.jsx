@@ -31,7 +31,7 @@ const Task = ({ task }) => {
         type="checkbox"
         checked={task.isDone}
         onChange={handleToggleTask}
-        className="mr-4 ml-2"
+        className="mr-4 ml-2 capitalize"
       />
       <span className={task.isDone ? "line-through" : ""}>
         {task.description}
